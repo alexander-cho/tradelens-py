@@ -1,7 +1,7 @@
 import sys
 from pathlib import Path
 
-from ...app.models import Stock
+from app.models import Stock
 from tradelens import app, db
 
 # Add the parent directory of 'app' to the system path
